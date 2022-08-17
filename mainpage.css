@@ -2,7 +2,7 @@
     margin: 0px;
     padding:0px;    
     font-family: 'Nunito',sans-serif;
-    color: green;
+    color: black;
    
 }
 .navbar-brand{  
@@ -53,4 +53,8 @@ a.nav-link{
     height: 5px;
     background: #04AA6D;
     border: none;  
+}
+span.navbar-toggler-icon{
+    width: 30px;
+    height: 30px;
 }
