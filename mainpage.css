@@ -83,7 +83,7 @@ a.navbar-brand{
     right:40px;
 }
 
-/* BELOW NAVBAR */
+/* BELOW NAVBAR content */
 .container2{
     position: absolute;
     width: 100%;
@@ -91,10 +91,61 @@ a.navbar-brand{
     background-color: rgb(13,23,33);
 }
 .cont-head{
-    position: absolute;     
+    position: relative;     
     color: aliceblue;
-    font-size: 2rem;
+    padding: 5vm;
+    font-size: 60px;
     top:20%;
+    text-align: center;
+    margin: 0;
+    
+}
+.p{
+    font-size: 21px;
+    color: pink;
+    position: relative;  
+    top:20%;
+    text-align: center;
+    padding: 5vm; 
+}
+.search{
+    top:55%;
     left: 50%;
     transform: translate(-50%, -50%);
+    position:absolute;
+}
+form{
+    background:white ;
+    width: 400px;
+    height:50px;
+    display: flex;
+}
+form input{
+    flex:1;
+    background: transparent;
+    border:none;
+    outline: none;
+    padding: 20px;
+}
+form button{
+    background: #04AA6D;
+    border: none;
+    outline: none;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+::placeholder{
+    color: black;
+}
+.hyper{
+    position: absolute; 
+    color: aliceblue;
+    font-size: 3vh;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.hyper:hover{
+    color: pink;
+
 }
