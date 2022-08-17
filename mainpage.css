@@ -62,15 +62,18 @@ span.navbar-toggler-icon{
 }
 .log{
     position: absolute;
-    left: 74%;
+    top: 20%;
+    left: 75%;
   background-color: #4CAF50; 
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 15px 30px;
   text-decoration: none;
-  display: inline-block;
   font-size: 16px;
   border-radius: 30px;
+}
+.navbar-nav .dropdown-menu {
+    position: absolute;
 }
 .log:hover{
     color: black;
@@ -83,7 +86,15 @@ a.navbar-brand{
     position: relative;
     right:40px;
 }
-
+.dropdown-item {
+    width: 100%;
+    clear: both;
+    font-weight: 400;
+    color:black;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+}
 /* BELOW NAVBAR content */
 .container2{
     position: absolute;
@@ -139,9 +150,11 @@ form button{
     color: black;
 }
 .hyper{
+    font-size: 21px;
+    color: pink;
     position: absolute; 
-    color: aliceblue;
-    font-size: 3vh;
+    text-align: center; 
+    padding: 5vm; 
     top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
