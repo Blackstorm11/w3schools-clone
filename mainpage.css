@@ -19,6 +19,10 @@
 .nav-link:hover{
     color: white;
 }
+a.nav-link.dropdown-toggle:hover{
+    background-color:#04AA6D ;
+    height:200%;
+}
 .navbar-brand:hover{
     color: #04AA6D;
 }
@@ -44,6 +48,11 @@
    background-repeat: no-repeat;
    background-position: center;
    background-size: 100%;
+}
+ul.dropdown-menu.show{
+    position: relative;
+    height: 50%;
+    background-color: #282A35;
 }
 div.container-fluid{
     padding: 0px 30px;
@@ -90,10 +99,10 @@ a.navbar-brand{
     width: 100%;
     clear: both;
     font-weight: 400;
-    color:black;
+    color:#FFF4A3;
     text-align: center;
     text-decoration: none;
-    background-color: white;
+    background:#282A35 ;
 }
 /* BELOW NAVBAR content */
 .container2{
